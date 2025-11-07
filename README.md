@@ -187,3 +187,9 @@ The script generates an interactive HTML map with:
 ## Example Data
 
 See `sample_map_data.xlsx` for a complete example with all sheet types populated.
+
+## New Features
+- **Lines Layer:** Added support for drawing routes or paths from the `lines` sheet in the Excel file.  
+  Each line should include: `name`, `coordinates`, `color`, `weight`, and `opacity`.
+
+- **Center Glow (Fun Feature):** Added a glowing yellow marker that highlights the map’s center — just for fun!
